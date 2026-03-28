@@ -1,0 +1,21 @@
+{
+  "name": "b16-darkmoss-dark",
+  "displayName": "b16-darkmoss-dark",
+  "description": "A Base16 Theme",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.110.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Base16 Darkmoss (Dark)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Base16 Darkmoss (Dark)-color-theme.json"
+      }
+    ]
+  }
+}
