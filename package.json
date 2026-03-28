@@ -4,19 +4,28 @@
   "description": "A Base16 Theme",
   "version": "0.0.2",
   "publisher": "sigilpunk",
+  "__metadata": {
+    "id": "b16-darkmoss-dark",
+    "publisherId": "sigilpunk",
+    "publisherDisplayName": "sigilpunk",
+    "targetPlatform": "undefined",
+    "isApplicationScoped": false,
+    "isPreReleaseVersion": false,
+    "hasPreReleaseVersion": false,
+    "installedTimestamp": 0,
+    "source": "gallery"
+  },
   "engines": {
     "vscode": "^1.110.0"
   },
-  "categories": [
-    "Themes"
-  ],
+  "categories": ["Themes"],
   "contributes": {
-     "themes": [
-       {
-         "label": "Base16 Darkmoss (Dark)",
-         "uiTheme": "vs-dark",
-         "path": "./themes/Base16-Darkmoss-Dark-color-theme.json"
-       }
-     ]
-   }
+    "themes": [
+      {
+        "label": "Base16 Darkmoss (Dark)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Base16-Darkmoss-Dark-color-theme.json"
+      }
+    ]
+  }
 }
