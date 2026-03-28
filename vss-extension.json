@@ -3,10 +3,10 @@
     "id": "b16-darkmoss-dark",
     "name": "b16-darkmoss-dark",
     "publisher": "sigilpunk",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "A Base16 Theme",
     "categories": [
-      "Themes"
+      "Azure Repos"
     ],
     "tags": [
       "theme",
@@ -25,18 +25,19 @@
       }
     },
     "contributions": [
-      {
+    {
+        "id": "b16-darkmoss-dark-theme",
         "type": "Microsoft.VisualStudio.Code.Extension",
         "targets": [
-          "Microsoft.VisualStudio.Services"
+        "Microsoft.VisualStudio.Services"
         ],
         "properties": {
-          "displayName": "b16-darkmoss-dark",
-          "description": "A Base16 Theme",
-          "categories": [
-            "Themes"
-          ],
-          "contributes": {
+        "displayName": "b16-darkmoss-dark",
+        "description": "A Base16 Theme",
+        "categories": [
+            "Azure Repos"
+        ],
+        "contributes": {
             "themes": [
             {
                 "label": "Base16 Darkmoss (Dark)",
@@ -46,7 +47,7 @@
             ]
         }
         }
-      }
+    }
     ],
     "files": [
       {
