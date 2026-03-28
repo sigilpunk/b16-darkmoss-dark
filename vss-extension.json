@@ -1,0 +1,57 @@
+{
+    "manifestVersion": 1,
+    "id": "b16-darkmoss-dark",
+    "name": "b16-darkmoss-dark",
+    "publisher": "sigilpunk",
+    "version": "0.0.1",
+    "description": "A Base16 Theme",
+    "categories": [
+      "Azure DevOps"
+    ],
+    "tags": [
+      "theme",
+      "color-theme",
+      "dark-theme",
+      "base16"
+    ],
+    "targets": [
+      {
+        "id": "Microsoft.VisualStudio.Services"
+      }
+    ],
+    "content": {
+      "details": {
+        "path": "README.md"
+      }
+    },
+    "contributions": [
+      {
+        "type": "Microsoft.VisualStudio.Code.Extension",
+        "targets": [
+          "Microsoft.VisualStudio.Services"
+        ],
+        "properties": {
+          "displayName": "b16-darkmoss-dark",
+          "description": "A Base16 Theme",
+          "categories": [
+            "Themes"
+          ],
+          "contributes": {
+            "themes": [
+            {
+                "label": "Base16 Darkmoss (Dark)",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Base16-Darkmoss-Dark-color-theme.json"
+            }
+            ]
+        }
+        }
+      }
+    ],
+    "files": [
+      {
+        "path": "themes",
+        "addressable": true
+      }
+    ]
+  }

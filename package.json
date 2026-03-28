@@ -3,6 +3,7 @@
   "displayName": "b16-darkmoss-dark",
   "description": "A Base16 Theme",
   "version": "0.0.1",
+  "publisher": "sigilpunk",
   "engines": {
     "vscode": "^1.110.0"
   },
